@@ -1,0 +1,29 @@
+.card{
+    width: 400px;
+    height: 280px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 45px;
+    font-family: sans-serif;
+    padding-top: 2px;
+}
+.card>h1{
+    text-align: center;
+    font-weight: 700;
+}
+.input>input{
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.card>form>button{
+    padding: 8px 50px;
+    margin-left: 125px;
+    font-size: 16px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(5, 140, 102);
+    border: none ;
+    border-radius: 5px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Movies</title>
+    <link rel="stylesheet" href="styles/Add.css">
+</head>
+<body>
+    <div class="container">
+        <h1>New Movie</h1>
+        <form onsubmit="storeit(event)" id="moviestore">
+            <input type="text" id="mname" placeholder="Enter the movie name">
+            <input type="url"  id="murl" placeholder="Enter url of the poster">
+            <input type="date" id="mdate" placeholder="Enter release date">
+            <input type="number" id="mrating" placeholder="Enter Imdb rating">
+            <input id="submit" type="submit">
+        </form>
+    </div>
+</body>
+</html>
+<script src="scripts/Add.js"></script>

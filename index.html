@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Movie App</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="bag">
+            <a href="index.html"><div>Home</div></a>
+            <a href="login.html"><div>Login</div></a>
+            <a href="signup.html"><div>Signup</div></a>
+        </div>
+    </div>
+    <div id="slides">
+        <div id="slide1"></div>
+        <div id="slide2"></div>
+    </div>
+    <div id="sort">
+        <button onclick="lowtohigh()" id="sort-lh">Sort by low rating to high</button>
+        <button onclick="addmovie()">Click to add Movies</button>
+        <button onclick="hightolow()" id="sort-hl">Sort by high rating to low</button>
+    </div>
+    <div id="movies"></div>
+    <div id="end"></div>
+</body>
+</html>
+<script src="scripts/index.js"></script>

@@ -1,0 +1,58 @@
+MOVIE APP I
+Asynchronous Programming
+Level: 2
+Type: applied
+Avg Duration: 2 Hrs
+Create a Navbar where you have three options Home, Login, Signup on RHS.
+
+This navbar page should be visible in all the three pages you will be building i.e index.html, Login.html, and Signup.html.
+
+In signup.html, a user should be able to signup with details like ‘name, contact no, email, password’. 
+
+The form should not be submitted if any of the fields are empty. store the user signup data in local storage.
+
+In login.html, the user should be able to log in using ‘email and password’ If wrong username/password, alert ‘invalid Credentials’.
+
+If login successful, send the user to index.html .
+
+index.html should have a navbar like all other pages ( signup and login pages ).
+
+Implement a slideshow of random movie image on the homepage using setInterval
+
+Refer to the following design- https://i.imgur.com/EewiXkw.png (Links to an external site.)
+
+login.PNG
+
+signup.png
+
+Use following template to write your code in, please do not change names of HTML id's. Async-Prog-Assignment-Template.zip
+
+https://super-brioche-e40f5a.netlify.app 
+
+
+#########################################
+
+MOVIE APP - APPEND MOVIES
+Asynchronous Programming
+Level: 1
+Type: applied
+Avg Duration: 1 Hrs
+Create a database of movies of your choice. Each movie object will have properties like ‘name, release date, poster (add url of a poster), IMDb rating, etc.
+
+Create at least 9 movies object, push all of them as array items. Store the array in local storage with key 'movies'.
+
+Whenever the user visits index.html, show the movies in 3*3 grid ( 3 columns, 3 rows ).
+
+https://super-brioche-e40f5a.netlify.app 
+
+#############################################
+
+
+MOVIE APP - SORTING AND FILTERING
+Asynchronous Programming
+Level: 1
+Type: applied
+Avg Duration: 1 Hrs
+Create ‘Sort by low rating to high, Sort by High rating to low` buttons. Give them "sort-lh" and "sort-hl" as HTML id's respectively.
+
+When a user clicks on any of the above buttons, he should be able to see to the movies in a sorted fashion depending on their IMDb ratings.
